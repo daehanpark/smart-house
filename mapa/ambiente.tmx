@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="19" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="interacciones" tilewidth="32" tileheight="32">
+  <image source="tiles/interacciones.png" trans="ff00ff" width="320" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="air" value=""/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="air" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="tvLoc" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="tv" value=""/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="lamp" value=""/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="lamp" value=""/>
+   </properties>
+  </tile>
+  <tile id="6">
+   <properties>
+    <property name="pc" value=""/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="pc" value=""/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="radio" value=""/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="radio" value=""/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="12">
+   <properties>
+    <property name="tv" value=""/>
+   </properties>
+  </tile>
+  <tile id="13">
+   <properties>
+    <property name="tv" value=""/>
+   </properties>
+  </tile>
+  <tile id="14">
+   <properties>
+    <property name="lamp" value=""/>
+   </properties>
+  </tile>
+  <tile id="15">
+   <properties>
+    <property name="lamp" value=""/>
+   </properties>
+  </tile>
+  <tile id="16">
+   <properties>
+    <property name="pc" value=""/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="pc" value=""/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="radio" value=""/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="radio" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="21" name="piso1" tilewidth="32" tileheight="32">
+  <image source="tiles/piso1.png" trans="ff00ff" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="22" name="sillaup" tilewidth="32" tileheight="32">
+  <image source="tiles/sillaup.png" trans="ff00ff" width="45" height="44"/>
+ </tileset>
+ <tileset firstgid="23" name="triggers" tilewidth="32" tileheight="32">
+  <image source="tiles/triggers.png" trans="ff00ff" width="192" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="playerStart" value="down"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="playerStart" value="down"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="in" value=""/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="out" value=""/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="5">
+   <properties>
+    <property name="solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="8">
+   <properties>
+    <property name="in" value=""/>
+   </properties>
+  </tile>
+  <tile id="9">
+   <properties>
+    <property name="out" value=""/>
+   </properties>
+  </tile>
+  <tile id="10">
+   <properties>
+    <property name="solid" value=""/>
+   </properties>
+  </tile>
+  <tile id="11">
+   <properties>
+    <property name="solid" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="35" name="bookcase" tilewidth="32" tileheight="32">
+  <image source="tiles/bookcase.png" trans="ff00ff" width="96" height="96"/>
+ </tileset>
+ <tileset firstgid="44" name="camaup" tilewidth="32" tileheight="32">
+  <image source="tiles/camaup.png" trans="ff00ff" width="128" height="256"/>
+ </tileset>
+ <tileset firstgid="76" name="piso2" tilewidth="32" tileheight="32">
+  <image source="tiles/piso2.png" trans="ff00ff" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="77" name="planta" tilewidth="32" tileheight="32">
+  <image source="tiles/planta.png" trans="ff00ff" width="32" height="64"/>
+ </tileset>
+ <layer name="background" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFpABRCvGoHYPLDh8ceNSO4WsHMWDUDuLtGAXEAQCC/Bn5
+  </data>
+ </layer>
+ <layer name="foreground" width="25" height="19">
+  <data encoding="base64" compression="zlib">
+   eJztzUkOglAURFH2ooINgggovQ0qIMH9L4e7AUL+oCaGSs7svVzL+u+tsMZG2LDhYCts7LDHQdhYNj0XR3jwRY0TApwRihoRYlxwFTUSpMiQixoFSlS4iRp3PPBELWq88MYHjcHfYHDbosMXvcHfz+B22fxGsb8Jaw==
+  </data>
+ </layer>
+ <layer name="triggers" width="25" height="19" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJytlQsLwjAMhKsovhWn4GP10f3/H2mKFsJ5Xbto4IO0W3u7rMta51yr8GTcwRzDE3C/AHmA9aGHnGZpbUfyLgPTZD4ikw/4PAth6d4R5+bCrKJ+WiNpb4UN1Cs+50E4Ko1G2MN9uRomjV8D65jG/9RgZwrfhzUuKr+S66iBZ6EmHip/qvwknIkGntGayPm4CXeiYfExtFYWH7la5TQsPkbC2NWfK4uPlbBWe5V6osXHFNakb1D3auyJQ33s1B7aS9JiPqx42B97SV9PqwXro+e8++5nDPY+S/8RPf8CM2ckJA==
+  </data>
+ </layer>
+</map>

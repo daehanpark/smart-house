@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/home/luis/git/smarthouse-ia-u2014/smarthouse/simulador.py", line 280, in <module>
+    Game(screen).main()
+  File "/home/luis/git/smarthouse-ia-u2014/smarthouse/simulador.py", line 267, in main
+    self.ambiente.llegada_usuario(self.ambiente.get_usuario(),False)
+  File "/home/luis/git/smarthouse-ia-u2014/smarthouse/Ambiente.py", line 44, in llegada_usuario
+    pref= self.buscar_preferencias_usuario(False)
+  File "/home/luis/git/smarthouse-ia-u2014/smarthouse/Ambiente.py", line 144, in buscar_preferencias_usuario
+    WHERE PU.nombre_usuario='%s'""" % (self.__usuario.get_nombre())
+AttributeError: 'NoneType' object has no attribute 'get_nombre'

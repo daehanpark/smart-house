@@ -1,0 +1,51 @@
+FUNCTION_BLOCK foo
+ 
+    VAR_INPUT
+        Temperatura :     REAL; (* RANGE(16 .. 26) *)
+        Volumen:    REAL; (* RANGE(0 .. 100) *)
+        Intensidad:    REAL; (* RANGE(0 .. 200) *)
+    END_VAR
+ 
+    VAR_OUTPUT
+        Tipoambiente : REAL;
+    END_VAR
+ 
+    FUZZIFY Temperatura
+        TERM Frio := (16, 0) (16, 1) (18, 1) (22, 0) ;
+        TERM Tibio := (20, 0) (22, 1) (23, 1) (24, 0) ;
+        TERM Caliente := (23, 0) (26, 1) (26, 0) ;
+    END_FUZZIFY
+ 
+    FUZZIFY Volumen
+        TERM Bajo := (0, 0) (0, 1) (50, 0) ;
+        TERM Medio := (14, 0) (50, 1) (83, 0) ;
+        TERM Alto := (50, 0) (100, 1) (100, 0) ;
+    END_FUZZIFY
+ 
+    FUZZIFY Intensidad
+        TERM Tenue := (0, 0) (0, 1) (40, 0) ;
+        TERM Media := (35, 0) (60, 1) (80, 1) (120, 0) ;
+        TERM Brillante := (80, 0) (120, 1) (200, 1) (200, 0) ;
+    END_FUZZIFY
+    
+    
+    DEFUZZIFY Tipoambiente
+     	TERM Descanso:= 1;
+        TERM Trabajo := 2;
+        TERM Estres := 3;
+        ACCU:MAX;
+        METHOD: COGS;(*MoM;*)
+        DEFAULT := -1; 
+    END_DEFUZZIFY
+ 
+   
+	RULEBLOCK first
+        AND:MIN;
+        OR : MAX;
+        (*ACCU:MAX;*)
+        RULE 0: IF Temperatura IS Frio AND Volumen IS Bajo AND Intensidad IS Tenue  THEN Tipoambiente IS Descanso;
+        RULE 1: IF Volumen IS Alto THEN Tipoambiente IS Estres;
+        RULE 2: IF Temperatura IS Caliente AND Volumen IS Bajo AND Intensidad IS Tenue THEN Tipoambiente IS Descanso;        
+    END_RULEBLOCK
+ 
+END_FUNCTION_BLOCK

@@ -1,0 +1,11 @@
+Pygame:
+En el main va:
+
+Eventos
+Actualizacion de objetos (valores)
+Actualizacion de la pantalla
+
+
+flip: Es el update de la pantalla en pygame
+
+OJO: spritecollide -> Funcion detectar colisiones.

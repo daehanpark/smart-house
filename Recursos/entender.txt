@@ -1,0 +1,363 @@
+self.name piso1
+self.tile_width 32
+self.tile_height 32
+self.firstgid 1
+Este es el gid  1
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+en class TIlesets <Tile 1>
+self.name cama1
+self.tile_width 32
+self.tile_height 32
+self.firstgid 2
+Este es el gid  2
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  3
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  4
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  5
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  6
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  7
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  8
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  9
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  10
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  11
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  12
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  13
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  14
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  15
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  16
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  17
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  18
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  19
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  20
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  21
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  22
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  23
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  24
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  25
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+en class TIlesets <Tile 2>
+en class TIlesets <Tile 3>
+en class TIlesets <Tile 4>
+en class TIlesets <Tile 5>
+en class TIlesets <Tile 6>
+en class TIlesets <Tile 7>
+en class TIlesets <Tile 8>
+en class TIlesets <Tile 9>
+en class TIlesets <Tile 10>
+en class TIlesets <Tile 11>
+en class TIlesets <Tile 12>
+en class TIlesets <Tile 13>
+en class TIlesets <Tile 14>
+en class TIlesets <Tile 15>
+en class TIlesets <Tile 16>
+en class TIlesets <Tile 17>
+en class TIlesets <Tile 18>
+en class TIlesets <Tile 19>
+en class TIlesets <Tile 20>
+en class TIlesets <Tile 21>
+en class TIlesets <Tile 22>
+en class TIlesets <Tile 23>
+en class TIlesets <Tile 24>
+en class TIlesets <Tile 25>
+self.name triggers
+self.tile_width 32
+self.tile_height 32
+self.firstgid 26
+Este es el gid  26
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  27
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  28
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  29
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  30
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  31
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  32
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  33
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  34
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  35
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  36
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  37
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+26
+26
+[<Tile 26>, <Tile 27>, <Tile 28>, <Tile 29>, <Tile 30>, <Tile 31>, <Tile 32>, <Tile 33>, <Tile 34>, <Tile 35>, <Tile 36>, <Tile 37>]
+c.attrib name playerStart
+c.attrib value down
+30
+26
+[<Tile 26>, <Tile 27>, <Tile 28>, <Tile 29>, <Tile 30>, <Tile 31>, <Tile 32>, <Tile 33>, <Tile 34>, <Tile 35>, <Tile 36>, <Tile 37>]
+c.attrib name solid
+c.attrib value 
+31
+26
+[<Tile 26>, <Tile 27>, <Tile 28>, <Tile 29>, <Tile 30>, <Tile 31>, <Tile 32>, <Tile 33>, <Tile 34>, <Tile 35>, <Tile 36>, <Tile 37>]
+c.attrib name solid
+c.attrib value 
+36
+26
+[<Tile 26>, <Tile 27>, <Tile 28>, <Tile 29>, <Tile 30>, <Tile 31>, <Tile 32>, <Tile 33>, <Tile 34>, <Tile 35>, <Tile 36>, <Tile 37>]
+c.attrib name solid
+c.attrib value 
+37
+26
+[<Tile 26>, <Tile 27>, <Tile 28>, <Tile 29>, <Tile 30>, <Tile 31>, <Tile 32>, <Tile 33>, <Tile 34>, <Tile 35>, <Tile 36>, <Tile 37>]
+c.attrib name solid
+c.attrib value 
+en class TIlesets <Tile 26>
+en class TIlesets <Tile 27>
+en class TIlesets <Tile 28>
+en class TIlesets <Tile 29>
+en class TIlesets <Tile 30>
+en class TIlesets <Tile 31>
+en class TIlesets <Tile 32>
+en class TIlesets <Tile 33>
+en class TIlesets <Tile 34>
+en class TIlesets <Tile 35>
+en class TIlesets <Tile 36>
+en class TIlesets <Tile 37>
+self.name tvbig
+self.tile_width 32
+self.tile_height 32
+self.firstgid 38
+Este es el gid  38
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  39
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  40
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  41
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  42
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  43
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  44
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  45
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+en class TIlesets <Tile 38>
+en class TIlesets <Tile 39>
+en class TIlesets <Tile 40>
+en class TIlesets <Tile 41>
+en class TIlesets <Tile 42>
+en class TIlesets <Tile 43>
+en class TIlesets <Tile 44>
+en class TIlesets <Tile 45>
+self.name pc1
+self.tile_width 32
+self.tile_height 32
+self.firstgid 46
+Este es el gid  46
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  47
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  48
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  49
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  50
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  51
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  52
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+Este es el gid  53
+Este es el surface  <Surface(32x32x32 SW)>
+Este es el tile_widht  32
+Este es el tile_height  32
+Estas son las properties {}
+en class TIlesets <Tile 46>
+en class TIlesets <Tile 47>
+en class TIlesets <Tile 48>
+en class TIlesets <Tile 49>
+en class TIlesets <Tile 50>
+en class TIlesets <Tile 51>
+en class TIlesets <Tile 52>
+en class TIlesets <Tile 53>
